@@ -12,7 +12,7 @@ try:
   conexion = mysql.connector.connect(
     host="localhost",          
     user="root",               
-    password="2008",  
+    password="Ingresa tu contraseña profe",  
     database="empresa"         
   )
   if conexion.is_connected():
@@ -25,3 +25,4 @@ except Error as e:
   conexion = None
   verify = False
   cursor = None
+
